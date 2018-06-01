@@ -5,12 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<%@ include file="include/header.jsp" %>
 </head>
 <body>
-<h2>Welcome!</h2>
-<h2>${msg}</h2>
-<a href="${path}/admin/">관리자 페이지</a><br>
-<a href="${path}/user/logout.do">로그아웃</a>
+<h2>관리자 페이지 입니다.</h2>
 </body>
 </html>
